@@ -1,0 +1,44 @@
+.vishka {
+    background: black;
+}
+.vishka__conteiner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.vishka-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.vishka-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.vishka-text__h2 {
+    margin-bottom: 30px;
+}
+.normal-900 {
+}
+.vishka-text__p {
+    margin-bottom: 30px;
+    max-width: 300px;
+    text-align: center;
+}
+.normal-700 {
+}
+.batton {
+}
+.batton-vishka {
+}
+.batton-a-zolotoy {
+}
+.vishka-foto {
+}
+.vishka-foto__img {
+}

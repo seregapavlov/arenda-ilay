@@ -1,0 +1,73 @@
+ .main{
+    background: black;
+ }
+
+.kran__conteiner {
+    background:black;
+    padding-top: 50px;
+   
+   
+}
+.kran-p {
+}
+.kran-p-tell {
+}
+.kran-content {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+  
+    
+   
+}
+.kran-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    color: var(--zolotoy);
+}
+.kran-text__h1 {
+    text-align: center;
+   
+    
+    
+}
+.kran-text__p {
+    text-align: center;
+    padding: 20px 0;
+}
+.batton {
+}
+.batton-kran {
+}
+.batton-a {
+    align-self: center;
+   // background:rgb(187,133,34);
+    background: var(--zolotoy);
+    border-radius: 10px;
+    text-align: center;
+    color:black;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 2;
+    padding: 12px 60px;
+}
+.kran-foto {
+    position: relative;
+    overflow: hidden;
+    padding: 15%;
+    min-width: 50%;
+    max-width: 51;
+   
+}
+.kran-foto__img {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right:  0;
+    top: 0;
+    
+}

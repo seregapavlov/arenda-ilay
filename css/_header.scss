@@ -1,0 +1,148 @@
+.tral{
+    min-width: 60px;
+    padding-top: 16px;
+}
+.fura{
+    width: 60px;
+    padding-top: 10px;
+
+}
+.kran-p-opm{
+    font-size: 52px;
+    font-family: "Cinzel";
+    font-weight: 700;
+    
+}
+
+
+.wrapper{
+    height: 100%;
+    background: black;
+}
+
+
+.header {
+color: var(--zolotoy);
+transition: all 1s;
+
+
+}
+.header__conteiner {
+    padding-bottom: 20px;
+    
+}
+
+.logo-header {
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+}
+.logo {
+    max-height: 120px;
+    overflow: hidden;
+    border-radius: 15px;
+   
+    min-width: 315px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.logo-header__logo{
+    margin-top: 20px;
+
+}
+
+.logo-header__logo-img {
+    max-height: 150px;
+    
+    
+}
+.header-wrapper{
+   // display: flex;
+   // flex-direction: column;
+    margin-top: 20px;
+}
+.icons-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    
+}
+.batton-tel {
+    padding: 15px;
+    //border: 1px solid var(--zolotoy);
+   text-align: center;
+}
+.batton-tel-a {
+   
+    font-size: 32px;
+}
+
+.logo-header__icons {
+    margin:0 20px 0 20px;
+   
+}
+.logo-header__icon {
+    max-width: 30px;
+    overflow: hidden;
+  
+}
+
+.logo-header__item {
+   
+    display: block;
+    &:hover{
+        transform: rotate(20deg);
+        transition: 0.2s;
+    }
+   
+}
+
+.header-menu {
+}
+.items-menu {
+    
+    display: flex;
+   justify-content: space-between;
+    margin-top: 20px;
+    flex: 1 1 auto;
+    
+    
+    
+  
+
+   
+}
+
+.item-menu {
+    min-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+   // border: 1px solid red;
+    
+   
+   
+    width: 20px;
+    
+   
+    & a:hover{
+        color: red;
+        transition: 0.2s;
+    }
+}
+.item-menu__img {
+    margin-right: -5px;
+  
+}
+.item-menu__text {
+    padding: 0 15px 0 5px;
+    a{
+        padding: 0 45px 0 5px;
+
+
+    }
+}
