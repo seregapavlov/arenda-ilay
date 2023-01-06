@@ -9,8 +9,7 @@
 }
 .fyra-foto {
 }
-.fyra-foto__img {
-}
+
 .fyra-content {
     display: flex;
     flex-direction: column;
@@ -38,4 +37,18 @@
 .batton-fyra {
 }
 .batton-a-zolotoy {
+}
+@media (max-width:954px){
+    .fyra__conteiner {
+        flex-direction: column;
+    }
+    .fyra-foto__img {max-width: 290px;
+    }
+    .fyra-text__h2 {
+        font-size: 3rem;
+    }
+    .fyra-text {
+        max-width: 290px;
+    }
+
 }

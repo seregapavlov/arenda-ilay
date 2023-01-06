@@ -36,5 +36,15 @@
 }
 .vishka-foto {
 }
-.monik-foto__img {
+
+@media (max-width:954px){
+    .monik__conteiner{
+        flex-direction: column-reverse;
+    }
+    .monik-foto__img {
+        max-width: 290px;
+    }
+    .monik-text__h2 {
+        font-size: 2.4rem;
+    }
 }

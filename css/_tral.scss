@@ -37,3 +37,17 @@
 }
 .batton-a-zolotoy {
 }
+@media (max-width:954px){
+    .tral__conteiner {
+        display: flex;
+        flex-direction: column;
+    }
+    .vishka-foto__img {
+        max-width: 290px;
+    }
+    .tral-text__h2 {
+        font-size: 3rem;
+    }
+
+    
+}

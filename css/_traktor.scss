@@ -60,3 +60,18 @@
      padding: 12px 60px;
     
 }
+@media (max-width:954px){
+    .traktor__conteiner{
+        display: flex;
+        flex-direction: column;
+    }
+    .traktor-text{
+        max-width: 290px;
+        text-align: center;
+
+    }
+    .traktor-text__h2{
+        font-size: 3rem;
+    }
+    
+}

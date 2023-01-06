@@ -47,4 +47,40 @@
     margin-bottom: 20px;
 }
 .tell {
+    align-items: center;
+}
+
+@media (max-width:954px){
+    .footer__conteiner {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-logo {
+
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        margin-bottom: 15px;
+       margin-top: 10px;
+       
+    }
+    .emell {
+        margin-bottom: 10px;
+    }
+     .footer-contakt {
+        justify-content: center;
+        align-items: center;
+     }
+     .tell{
+        text-align: center;
+        padding-bottom: 10px;
+     }
+     .footer-icons {
+        margin-bottom: 15px;
+     }
+     .footer {
+        padding-top: 20px;
+     }
+
 }

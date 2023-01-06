@@ -39,6 +39,7 @@
     padding: 20px 0;
 }
 .batton {
+    margin-bottom: 10px;
 }
 .batton-kran {
 }
@@ -70,4 +71,12 @@
     right:  0;
     top: 0;
     
+}
+@media (max-width:954px){
+    .kran-content{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
 }
