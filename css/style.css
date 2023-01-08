@@ -125,6 +125,7 @@ html {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 30px;
+  background: var(--zolotoy);
   border-radius: 10px;
 }
 
@@ -321,6 +322,9 @@ html {
   .header-logo-info__tell {
     font-size: 2rem;
   }
+  .header-logo-img {
+    max-width: 290px;
+  }
 }
 @media (max-width: 520px) {
   .header-logo-info__tell {
@@ -333,6 +337,13 @@ html {
   width: 100%;
   left: 0;
   top: 0;
+}
+
+.kran-p-opm {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 3rem;
 }
 
 .main {
@@ -820,9 +831,9 @@ html {
 
 .footer-logo {
   margin-left: -15px;
-  -webkit-transition: all 1s;
-  -o-transition: all 1s;
-  transition: all 1s;
+  border-radius: 10px;
+  background: var(--zolotoy);
+  margin: 10px;
 }
 
 .footer-icons {
@@ -884,6 +895,9 @@ html {
             flex-direction: column;
   }
   .footer-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     border-radius: 10px;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -894,6 +908,10 @@ html {
     overflow: hidden;
     margin-bottom: 15px;
     margin-top: 10px;
+    width: 100%;
+  }
+  .footer-logo__img {
+    max-width: 290px;
   }
   .emell {
     margin-bottom: 10px;

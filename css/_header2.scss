@@ -13,6 +13,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    background: var(--zolotoy);
    
     border-radius: 10px;
     
@@ -201,12 +202,16 @@
     .header-menu-wrapper{
         display: none;
     }
+
     
 
 }
 @media (max-width:760px){
     .header-logo-info__tell {
         font-size: 2rem;
+    }
+    .header-logo-img{
+        max-width: 290px;
     }
 
 }
@@ -229,3 +234,10 @@
     
   
 } 
+
+.kran-p-opm{
+    font-family:   sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 3rem;
+}
